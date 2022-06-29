@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<main>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 fw-normal">Калькулятор физико-химических величин газов.</h1>
+            <p class="lead fw-normal">Кажется, что-то связанное со страданием? Вы угадали.
+                <br>
+                Мы разрабатываем калькулятор для различных уравнений состояния.
+            </p>
+
+            <a class="btn btn-outline-secondary" href="#methods">Посмотреть все методы</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <div id="methods" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div  class="my-3 py-3">
+                <h2  class="display-5">Модификация <br> Ли-Кесслера</h2>
+                <p class="lead">
+                    Сделано.
+                </p>
+            </div>
+
+            <div class="bg-light shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <a style="line-height: 150px; width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
+                   class="btn btn-outline-secondary" href="lee-kessler.html">Перейти</a>
+            </div>
+        </div>
+
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Уравнение <br>Редлиха-Квонга</h2>
+                <p class="lead">В разработке.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                <a style="line-height: 150px; width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
+                   class="btn btn-outline-secondary" href="404.html">Перейти</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Уравнение <br>Барнера-Адлера</h2>
+                <p class="lead">В разработке.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                <a style="line-height: 150px; width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
+                   class="btn btn-outline-secondary" href="404.html">Перейти</a>
+            </div>
+        </div>
+
+        <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Уравнение <br>Ли-Эрбара-Эдмистера</h2>
+                <p class="lead">В разработке.</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <a style="line-height: 150px; width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
+                   class="btn btn-outline-secondary" href="404.html">Перейти</a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-body shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-body shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-body shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-body shadow-sm mx-auto"
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+    </div> -->
+</main>
+
+{% endblock %}
