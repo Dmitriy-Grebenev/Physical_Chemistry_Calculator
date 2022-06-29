@@ -1,1 +1,1 @@
-# Some_Python_attempts
+# Моя дипломная работа.
